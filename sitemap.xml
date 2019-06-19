@@ -3,17 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://www.demojie.cn/categories/</loc>
+    <loc>http://mrzlj.github.io/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.demojie.cn/tags/</loc>
+    <loc>http://mrzlj.github.io/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.demojie.cn/</loc>
+    <loc>http://mrzlj.github.io/</loc>
     <priority>0</priority>
   </url>
   
