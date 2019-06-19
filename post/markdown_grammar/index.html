@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-cn" lang="zh-cn">
+<head>
+  <link href="//gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.55.6" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Markdown基本语法 &middot; demo杰的博客</title>
+
+  
+  <link type="text/css" rel="stylesheet" href="./css/print.css" media="print">
+  <link type="text/css" rel="stylesheet" href="./css/poole.css">
+  <link type="text/css" rel="stylesheet" href="./css/syntax.css">
+  <link type="text/css" rel="stylesheet" href="./css/hyde.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|PT+Sans:400,400i,700">
+
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  
+</head>
+
+  <body class=" ">
+  <aside class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="./"><h1>demo杰的博客</h1></a>
+      <p class="lead">
+       程序猿🐒 
+      </p>
+    </div>
+
+    <nav>
+      <ul class="sidebar-nav">
+        <li><a href="./">主页</a> </li>
+        
+      </ul>
+    </nav>
+
+    <p>&copy; 2019. All rights reserved. </p>
+    <img style="display: inline;margin: 0 5px 0 0 ;" src="https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/icon-police.png?v=md5"/><a href="http://www.beian.miit.gov.cn/">粤ICP备16058618号</a>
+  </div>
+</aside>
+
+    <main class="content container">
+    <div class="post">
+  <h1>Markdown基本语法</h1>
+  <time datetime=2019-06-11T21:25:15&#43;0800 class="post-date">Tue, Jun 11, 2019</time>
+  
+
+<h1 id="markdown基本语法">Markdown基本语法</h1>
+
+<p>Markdown基础语法(官方教程)：<a href="https://www.markdownguide.org/basic-syntax/">https://www.markdownguide.org/basic-syntax/</a></p>
+
+<hr />
+
+<h2 id="一-标题">一、标题</h2>
+
+<p>支持六级标题</p>
+
+<p><strong><code>示例：</code></strong></p>
+
+<pre><code># 这是一级标题
+## 这是二级标题
+### 这是三级标题
+#### 这是四级标题
+##### 这是五级标题
+###### 这是六级标题
+</code></pre>
+
+<p><strong><code>效果如下：</code></strong></p>
+
+<h1 id="这是一级标题">这是一级标题</h1>
+
+<h2 id="这是二级标题">这是二级标题</h2>
+
+<h3 id="这是三级标题">这是三级标题</h3>
+
+<h4 id="这是四级标题">这是四级标题</h4>
+
+<h5 id="这是五级标题">这是五级标题</h5>
+
+<h6 id="这是六级标题">这是六级标题</h6>
+
+<hr />
+
+<h2 id="二-字体">二、字体</h2>
+
+<ul>
+<li><strong>斜体</strong>
+<br /></li>
+</ul>
+
+<p>使用一个星号：&rdquo;*&ldquo;，<code>星号与文字之间不要有空格</code></p>
+
+<ul>
+<li><strong>加粗</strong>
+<br /></li>
+</ul>
+
+<p>使用两个星号：&rdquo;**&rdquo;</p>
+
+<ul>
+<li><strong>斜体加粗</strong>
+<br /></li>
+</ul>
+
+<p>使用三个星号：&rdquo;***&rdquo;</p>
+
+<ul>
+<li><strong>删除线</strong>
+<br /></li>
+</ul>
+
+<p>使用两个阔折号：&rdquo;~~&rdquo;</p>
+
+<pre><code>**`示例：`**
+```
+**这是加粗的文字**
+*这是倾斜的文字*
+***这是斜体加粗的文字***
+~~这是加删除线的文字~~
+```
+
+**`效果如下：`**  
+**这是加粗的文字**  
+*这是倾斜的文字*  
+***这是斜体加粗的文字***  
+~~这是加删除线的文字~~  
+</code></pre>
+
+<hr />
+
+<h3 id="换行">换行</h3>
+
+<ol>
+<li>末尾输入两个<code>空格</code></li>
+<li>使用HTML的&lt;br&gt;标签</li>
+<li>换两行。<code>注意，这种应该叫新段落，因为行间距比普通的换行大</code></li>
+</ol>
+
+<h3 id="首行缩进">首行缩进</h3>
+
+<ol>
+<li><p>使用特殊占位符<br />
+<code>注意：不同的占位符所占空白大小不一样</code></p>
+
+<pre><code>1) &amp;nbsp; 或 &amp;#160;     // 比半角小
+2) &amp;ensp; 或 &amp;#8194;    // 半角
+3) &amp;emsp; 或 &amp;#8195;    // 全角
+</code></pre>
+
+<p><strong><code>效果如下：</code></strong><br />
+&#160;1<br />
+&#8194;1<br />
+&#8195;1</p></li>
+
+<li><p>全角下输入两个空格<br />
+<code>这个会导致首段不能缩进</code></p></li>
+</ol>
+
+<hr />
+
+<h2 id="三-引用">三、引用</h2>
+
+<p>在需要引用的文字前面加入大于号即可：&rdquo;&gt;&ldquo;。<br />
+引用也可以嵌套，可以使用多个大于号：&rdquo;&gt;&gt;&gt;&rdquo;</p>
+
+<p><strong><code>示例：</code></strong></p>
+
+<pre><code>&gt;这是引用的内容
+&gt;&gt;这是引用的内容
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;这是引用的内容
+</code></pre>
+
+<p><strong><code>效果如下：</code></strong><br />
+&gt;这是引用的内容
+&gt;&gt;这是引用的内容
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;这是引用的内容</p>
+
+<hr />
+
+<h2 id="四-分割线">四、分割线</h2>
+
+<p>使用<code>三个及以上</code>的<code>减号&quot;-&quot;</code>或<code>星号&quot;*&quot;</code>，效果是一样的</p>
+
+<p><strong><code>示例：</code></strong></p>
+
+<pre><code>---
+----
+***
+****
+</code></pre>
+
+<h2 id="效果如下"><strong><code>效果如下：</code></strong></h2>
+
+<hr />
+
+<hr />
+
+<hr />
+
+<hr />
+
+<h2 id="五-图片">五、图片</h2>
+
+<p><strong><code>语法：</code></strong></p>
+
+<pre><code class="language-Markdown">![avatar](url &quot;title&quot;)
+
+1. avatar：当图片找不到时，显示的内容。也可用于搜索引擎对图片查找。(可以不填，但中括号不能缺)
+2. url：图片地址，支持本地目录和网络地址。也支持SVG格式的矢量图片。
+3. title：鼠标悬浮在图片时，提示的文字(可不填，则不显示)
+</code></pre>
+
+<p><strong><code>示例：</code></strong></p>
+
+<pre><code class="language-Markdown">![百度首页](https://www.baidu.com/img/bd_logo1.png &quot;百度&quot;)
+</code></pre>
+
+<p><strong><code>效果如下：</code></strong></p>
+
+<p><img src="https://d33wubrfki0l68.cloudfront.net/f1f475a6fda1c2c4be4cac04033db5c3293032b4/513a4/assets/images/markdown-mark-white.svg" alt="Markdown图标" title="Markdown" /></p>
+
+<p><strong><code>其他：</code></strong><br />
+还可以使用<code>图片的Base64字符串</code>来插入图片<br />
+参考这篇博客：<a href="https://www.jianshu.com/p/280c6a6f2594">MarkDown添加图片的三种方式</a></p>
+
+<hr />
+
+<h2 id="六-超链接">六、超链接</h2>
+
+<p><strong><code>语法：</code></strong></p>
+
+<pre><code class="language-Markdown">[name](url &quot;title&quot;)
+
+1. name：链接显示的名称
+2. url：链接的地址
+3. title：鼠标悬浮时的提示。不填时，默认值为url的值。
+</code></pre>
+
+<p><strong><code>示例：</code></strong></p>
+
+<pre><code class="language-Markdown">[Markdown官网](https://www.markdownguide.org/)
+</code></pre>
+
+<p><strong><code>效果如下：</code></strong><br />
+<a href="https://www.markdownguide.org/">Markdown官网</a></p>
+
+<p><strong><code>其他：</code></strong><br />
+也可以先将url统一写在文章最下面，然后使用序号引用，具体请百度</p>
+
+<hr />
+
+<h2 id="七-列表">七、列表</h2>
+
+<ol>
+<li><p>无序列表</p>
+
+<p>使用<code>减号&quot;-&quot;</code>、<code>加号&quot;+&quot;</code>、<code>星号&quot;*&quot;</code>任何一种即可，注意于内容直接要有空格</p>
+
+<p><strong><code>示例：</code></strong></p>
+
+<pre><code>- 列表内容
++ 列表内容
+* 列表内容
+</code></pre>
+
+<p><strong><code>效果如下：</code></strong></p>
+
+<ul>
+<li>列表内容</li>
+<li>列表内容</li>
+<li>列表内容</li>
+</ul></li>
+
+<li><p>有序列表</p>
+
+<p>数字 + <code>点&quot;.&quot;</code></p>
+
+<p><strong><code>示例：</code></strong></p>
+
+<pre><code>1. 列表内容
+2. 列表内容
+3. 列表内容
+</code></pre>
+
+<p><strong><code>效果如下：</code></strong></p>
+
+<ol>
+<li>列表内容</li>
+<li>列表内容</li>
+<li>列表内容</li>
+</ol></li>
+
+<li><p>列表嵌套</p>
+
+<p>在下一级的前面加<code>两个空格</code>即可</p>
+
+<p><strong><code>示例：</code></strong></p>
+
+<pre><code>- 一级无序列表内容
+  - 二级无序列表内容
+  - 二级无序列表内容
+  - 二级无序列表内容
+</code></pre>
+
+<p><strong><code>效果如下：</code></strong></p>
+
+<ul>
+<li>一级无序列表内容
+
+<ul>
+<li>二级无序列表内容</li>
+<li>二级无序列表内容</li>
+<li>二级无序列表内容</li>
+</ul></li>
+</ul>
+
+<p><strong><code>其他：</code></strong><br />
+<code>由于Markdown对缩进的支持不太好，实际的一级列表应该为实心圆点，以上用了缩进对齐所以就不是实际的一级列表</code></p></li>
+</ol>
+
+<hr />
+
+<h2 id="八-表格">八、表格</h2>
+
+<p><strong><code>语法：</code></strong></p>
+
+<pre><code class="language-Markdown">表头|表头|表头
+---|:--:|---:
+内容|内容|内容
+内容|内容|内容
+
+1. 表头与内容的减号&quot;-&quot;分割线，有一个就行了
+2. 文字默认左对齐，使用冒号&quot;:&quot;来调整。两边冒号为居中，右侧为右对齐
+3. 原生的语法，两边都要用竖线&quot;|&quot;，包起来，这边省略了
+</code></pre>
+
+<p><strong><code>示例：</code></strong></p>
+
+<pre><code>姓名|技能|排行
+--|:--:|--:
+刘备|哭|大哥
+关羽|打|二哥
+张飞|骂|三弟
+</code></pre>
+
+<p><strong><code>效果如下：</code></strong><br />
+姓名|技能|排行
+&ndash;|:&ndash;:|&ndash;:
+刘备|哭|大哥
+关羽|打|二哥
+张飞|骂|三弟</p>
+
+<hr />
+
+<h2 id="九-代码">九、代码</h2>
+
+<p><strong><code>语法：</code></strong></p>
+
+<pre><code>单行代码：使用一个反引号&quot;`&quot;包起来。两个也可以。当然不一定要用来写代码
+
+代码块：使用三个反引号&quot;```&quot;包起来，且每组反引号单独占一行。第一组反引号后可以接上代码类型(Java, PHP, Markdown)。
+</code></pre>
+
+<p><strong><code>示例：</code></strong></p>
+
+<pre><code>    `单行代码`
+
+
+    ```Java
+    public static void main(String[] args) {
+
+    }
+    ```
+</code></pre>
+
+<p><strong><code>效果如下：</code></strong><br />
+<code>单行代码</code></p>
+
+<pre><code class="language-Java">public static void main(String[] args) {
+
+}
+</code></pre>
+
+<hr />
+
+<h2 id="十-流程图">十、流程图</h2>
+
+<p><strong><code>语法：</code></strong></p>
+
+<pre><code>```flow
+st=&gt;start: 开始
+op=&gt;operation: My Operation
+cond=&gt;condition: Yes or No?
+e=&gt;end
+st-&gt;op-&gt;cond
+cond(yes)-&gt;e
+cond(no)-&gt;op
+&amp;```
+</code></pre>
+
+<p><strong><code>其他：</code></strong><br />
+<code>VS Code不支持流程图</code></p>
+
+<hr />
+
+</div>
+
+
+    </main>
+
+    
+  </body>
+</html>
