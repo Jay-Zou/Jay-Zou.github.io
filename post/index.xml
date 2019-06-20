@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on demo杰的博客</title>
-    <link>./post/</link>
+    <link>/post/</link>
     <description>Recent content in Posts on demo杰的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Tue, 11 Jun 2019 21:25:15 +0800</lastBuildDate>
     
-	<atom:link href="./post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Markdown基本语法</title>
-      <link>./post/markdown_grammar/</link>
+      <link>/post/markdown_grammar/</link>
       <pubDate>Tue, 11 Jun 2019 21:25:15 +0800</pubDate>
       
-      <guid>./post/markdown_grammar/</guid>
+      <guid>/post/markdown_grammar/</guid>
       <description>Markdown基本语法 Markdown基础语法(官方教程)：https://www.markdownguide.org/basic-syntax/
 一、标题 支持六级标题
 示例：
@@ -31,10 +31,10 @@
     
     <item>
       <title>《敏捷软件开发》读书笔记</title>
-      <link>./post/software_design/</link>
+      <link>/post/software_design/</link>
       <pubDate>Sat, 11 May 2019 21:25:15 +0800</pubDate>
       
-      <guid>./post/software_design/</guid>
+      <guid>/post/software_design/</guid>
       <description>《敏捷软件开发：原则、模式与实践》读书笔记 面向对象设计的原则：
 SRP：单一职责原则 OCP：开放-封闭原则 LSP：Liskov替换原则 DIP：依赖倒置原则 ISP：接口隔离原则 REP：重用发布等价原则 CCP：共同封闭原则 CRP：共同重用原则 ADP：无环依赖原则 SDP：稳定依赖原则 SAP：稳定抽象原则  第 Ⅰ 部分 敏捷开发  人与人之间的交互是复杂的，并且其效果从来都难以预期，但却是工作中最为重要的方面。
 ——Tom Demacro 和 Timothy Lister。《人件》，第5页
